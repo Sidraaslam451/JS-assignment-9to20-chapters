@@ -1,14 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Assignment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
 
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="badge">JS Assignment</span>
+      <h1>JavaScript <span class="accent">Output</span> Demo</h1>
+      <p class="subtitle">Har question ka — sawal, logic aur output — sab ek jagah.</p>
+    </div>
+  </header>
 
-    <script src="index.js"></script>
+  <main class="container">
+
+    <section class="card" id="q1">
+      <div class="card-label">Question 01</div>
+      <h2 class="card-title">Hello World Greeting</h2>
+      <div class="section">
+        <p class="section-heading">&#128221; Question</p>
+        <p class="section-text">Display a greeting message to the user using JavaScript.</p>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9881; Logic</p>
+        <pre class="code-block">print("output-1", "Hello World!\nI am here to help you with your JavaScript output.");</pre>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9654; Output</p>
+        <div class="output-box" id="output-1"></div>
+      </div>
+    </section>
+
+    <section class="card" id="q2">
+      <div class="card-label">Question 02</div>
+      <h2 class="card-title">Error Message</h2>
+      <div class="section">
+        <p class="section-heading">&#128221; Question</p>
+        <p class="section-text">Show an error message when the user enters an invalid password.</p>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9881; Logic</p>
+        <pre class="code-block">print("output-2", "Error!\nPlease enter a valid password.");</pre>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9654; Output</p>
+        <div class="output-box error" id="output-2"></div>
+      </div>
+    </section>
+
+    <section class="card" id="q3">
+      <div class="card-label">Question 03</div>
+      <h2 class="card-title">Welcome with Happy Coding</h2>
+      <div class="section">
+        <p class="section-heading">&#128221; Question</p>
+        <p class="section-text">Display a welcome message along with a motivational line for coders.</p>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9881; Logic</p>
+        <pre class="code-block">print("output-3", "Welcome to JS Land\nHappy Coding!");</pre>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9654; Output</p>
+        <div class="output-box success" id="output-3"></div>
+      </div>
+    </section>
+
+    <section class="card" id="q4">
+      <div class="card-label">Question 04</div>
+      <h2 class="card-title">Two Separate Alerts Combined</h2>
+      <div class="section">
+        <p class="section-heading">&#128221; Question</p>
+        <p class="section-text">Originally two separate alert() calls — combined into one clean output line.</p>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9881; Logic</p>
+        <pre class="code-block">// Before: two alerts
+alert("Welcome to JS land");
+alert("Happy Coding!");
+
+// After: one clean print
+print("output-4", "Welcome to JS Land\nHappy Coding!");</pre>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9654; Output</p>
+        <div class="output-box info" id="output-4"></div>
+      </div>
+    </section>
+
+    <section class="card" id="q5">
+      <div class="card-label">Question 05</div>
+      <h2 class="card-title">Console Note</h2>
+      <div class="section">
+        <p class="section-heading">&#128221; Question</p>
+        <p class="section-text">Show a message that reminds the user they can run JavaScript in the browser console.</p>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9881; Logic</p>
+        <pre class="code-block">print("output-5", "Hello! I can run JavaScript from my browser's console.");</pre>
+      </div>
+      <div class="section">
+        <p class="section-heading">&#9654; Output</p>
+        <div class="output-box console" id="output-5"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with HTML &middot; CSS &middot; JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
